@@ -1,7 +1,7 @@
 const mysql = reqiere('mysql');
 
 const dbcon = mysql.createConnection({
-    host: 'localhost',
+    host: '34.50.84.188',
     user: 'root',
     password: '',
     database: 'toDoList'
